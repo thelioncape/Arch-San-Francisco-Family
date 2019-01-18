@@ -7,7 +7,9 @@ arch=('any')
 license=('custom')
 url='https://developer.apple.com/fonts/'
 depends=('fontconfig' 
-		 'xorg-font-utils')
+		 'xorg-font-utils'
+		 'fakeroot')
+
 
 source=(git+https://github.com/windyboy1704/San-Francisco-family.git)
 
