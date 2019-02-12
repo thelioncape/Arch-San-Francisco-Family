@@ -11,7 +11,7 @@ depends=('fontconfig'
 		 'fakeroot')
 
 
-source=(git+https://github.com/windyboy1704/San-Francisco-family.git)
+source=(git+https://github.com/thelioncape/San-Francisco-family.git)
 
 sha256sums=('SKIP')
 
