@@ -10,12 +10,12 @@ depends=('fontconfig'
 		 'xorg-font-utils')
 
 
-source=(git+https://github.com/thelioncape/San-Francisco-family/archive/1.1.zip)
+source=(https://github.com/thelioncape/San-Francisco-family/archive/1.1.zip)
 
-sha256sums=('SKIP')
+sha256sums=('c14ac36696a475f013968a7c844083605a3dbdec24b5db15737357c98d74a9c2')
 
 package() {
-  cd "$srcdir/San-Francisco-family"
+  cd "$srcdir/San-Francisco-family-1.1"
 
   install -d $pkgdir/usr/share/fonts/OTF/SF
   install -d $pkgdir/usr/share/fonts/OTF/SF/CompactRounded
