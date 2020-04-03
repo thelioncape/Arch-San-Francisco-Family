@@ -1,4 +1,4 @@
-# Maintainer: Mark Phillip <thelioncape(at)gmail(dot)com>
+# Maintainer: Ben Standerline <standerlineben(at)g(mail)(dot)c(o)m>
 pkgname=otf-san-francisco-full
 pkgver=1.1
 pkgrel=1
