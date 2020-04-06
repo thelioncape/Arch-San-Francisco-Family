@@ -1,7 +1,7 @@
 # Maintainer: Ben Standerline <standerlineben(at)g(mail)(dot)c(o)m>
 pkgname=otf-san-francisco-full
 pkgver=1.1
-pkgrel=1
+pkgrel=2
 pkgdesc='The San Francisco font family (SF family)' 
 arch=('any')
 license=('custom')
@@ -16,7 +16,6 @@ sha256sums=('c14ac36696a475f013968a7c844083605a3dbdec24b5db15737357c98d74a9c2')
 
 package() {
   cd "$srcdir/San-Francisco-family-1.1"
-
   install -d $pkgdir/usr/share/fonts/OTF/SF
   install -d $pkgdir/usr/share/fonts/OTF/SF/CompactRounded
   install -d $pkgdir/usr/share/fonts/OTF/SF/Compact
