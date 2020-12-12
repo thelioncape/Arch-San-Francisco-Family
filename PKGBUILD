@@ -7,7 +7,7 @@ arch=('any')
 license=('custom')
 url='https://developer.apple.com/fonts/'
 depends=('fontconfig' 
-		 'xorg-font-utils')
+		 'xorg-font-util')
 
 
 source=(https://github.com/thelioncape/San-Francisco-family/archive/1.1.zip)
