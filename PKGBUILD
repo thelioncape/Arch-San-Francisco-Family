@@ -12,7 +12,7 @@ depends=('fontconfig'
 
 source=(https://github.com/thelioncape/San-Francisco-family/archive/1.2.zip)
 
-sha256sums=('c14ac36696a475f013968a7c844083605a3dbdec24b5db15737357c98d74a9c2')
+sha256sums=('dd29449d66d1a129ea51ae9aebcf45604d5938f6253403def5c9808ef387fb92')
 
 package() {
   cd "$srcdir/San-Francisco-family-1.2"
@@ -38,6 +38,5 @@ package() {
   install -m644 SF\ Rounded/*.otf $pkgdir/usr/share/fonts/OTF/SF/Rounded
   install -m644 SF\ Serif/*.otf $pkgdir/usr/share/fonts/OTF/SF/Serif
   install -m644 SF\ Shields/*.otf $pkgdir/usr/share/fonts/OTF/SF/Sheilds
-
 }
 
