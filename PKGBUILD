@@ -1,7 +1,7 @@
 # Maintainer: Ben Standerline <standerlineben(at)g(mail)(dot)c(o)m>
 pkgname=otf-san-francisco-full
 pkgver=1.2
-pkgrel=2
+pkgrel=3
 pkgdesc='The San Francisco font family (SF family)' 
 arch=('any')
 license=('custom')
@@ -29,7 +29,7 @@ package() {
   install -d $pkgdir/usr/share/fonts/OTF/SF/Shields
 
   install -m644 SF\ Cash/*.otf $pkgdir/usr/share/fonts/OTF/SF/Cash
-  install -m644 SF\ CompactRounded/*.otf $pkgdir/usr/share/fonts/OTF/SF/CompactRounded
+  install -m644 SF\ Compact\ Rounded/*.otf $pkgdir/usr/share/fonts/OTF/SF/CompactRounded
   install -m644 SF\ Compact/*.otf $pkgdir/usr/share/fonts/OTF/SF/Compact
   install -m644 SF\ Condensed/*.otf $pkgdir/usr/share/fonts/OTF/SF/Condensed
   install -m644 SF\ Hello/*.otf $pkgdir/usr/share/fonts/OTF/SF/Hello
@@ -37,6 +37,6 @@ package() {
   install -m644 SF\ Pro/*.otf $pkgdir/usr/share/fonts/OTF/SF/Pro
   install -m644 SF\ Rounded/*.otf $pkgdir/usr/share/fonts/OTF/SF/Rounded
   install -m644 SF\ Serif/*.otf $pkgdir/usr/share/fonts/OTF/SF/Serif
-  install -m644 SF\ Shields/*.otf $pkgdir/usr/share/fonts/OTF/SF/Sheilds
+  install -m644 SF\ Shields/*.otf $pkgdir/usr/share/fonts/OTF/SF/Shields
 }
 
