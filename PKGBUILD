@@ -10,9 +10,9 @@ depends=('fontconfig'
 		 'xorg-font-util')
 
 
-source=(https://github.com/thelioncape/San-Francisco-family/archive/1.3.zip)
+source=(https://github.com/thelioncape/San-Francisco-family/archive/1.4.zip)
 
-sha256sums=('133112553d4775175e08418afbd56833a80c02a140741ac77e72216b8323be62')
+sha256sums=('30ef6b4460c4a20a20c6b3bf88e39d7ae43d59b75bc9c664688e70d4fbb36c5e')
 
 package() {
   cd "$srcdir/San-Francisco-family-1.3"
