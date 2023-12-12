@@ -1,6 +1,6 @@
 # Maintainer: Ben Standerline <standerlineben(at)g(mail)(dot)c(o)m>
 pkgname=otf-san-francisco-full
-pkgver=1.3
+pkgver=1.4
 pkgrel=1
 pkgdesc='The San Francisco font family (SF family)' 
 arch=('any')
@@ -18,6 +18,7 @@ package() {
   cd "$srcdir/San-Francisco-family-1.3"
   install -d $pkgdir/usr/share/fonts/OTF/SF
   install -d $pkgdir/usr/share/fonts/OTF/SF/Cash
+  install -d $pkgdir/usr/share/fonts/OTF/SF/Camera
   install -d $pkgdir/usr/share/fonts/OTF/SF/CompactRounded
   install -d $pkgdir/usr/share/fonts/OTF/SF/Compact
   install -d $pkgdir/usr/share/fonts/OTF/SF/Condensed
@@ -30,6 +31,7 @@ package() {
   install -d $pkgdir/usr/share/fonts/OTF/NY
 
   install -m644 SF\ Cash/*.otf $pkgdir/usr/share/fonts/OTF/SF/Cash
+  install -m644 SF\ Camera/*.otf $pkgdir/usr/share/fonts/OTF/SF/Camera
   install -m644 SF\ Compact\ Rounded/*.otf $pkgdir/usr/share/fonts/OTF/SF/CompactRounded
   install -m644 SF\ Compact/*.otf $pkgdir/usr/share/fonts/OTF/SF/Compact
   install -m644 SF\ Condensed/*.otf $pkgdir/usr/share/fonts/OTF/SF/Condensed
