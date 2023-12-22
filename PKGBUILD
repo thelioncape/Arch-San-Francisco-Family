@@ -1,7 +1,7 @@
 # Maintainer: Ben Standerline <standerlineben(at)g(mail)(dot)c(o)m>
 pkgname=otf-san-francisco-full
 pkgver=1.4
-pkgrel=1
+pkgrel=2
 pkgdesc='The San Francisco font family (SF family)' 
 arch=('any')
 license=('custom')
@@ -10,12 +10,12 @@ depends=('fontconfig'
 		 'xorg-font-util')
 
 
-source=(https://github.com/thelioncape/San-Francisco-family/archive/1.4.zip)
+source=(https://github.com/thelioncape/San-Francisco-family/archive/$pkgver.zip)
 
 sha256sums=('30ef6b4460c4a20a20c6b3bf88e39d7ae43d59b75bc9c664688e70d4fbb36c5e')
 
 package() {
-  cd "$srcdir/San-Francisco-family-1.3"
+  cd "$srcdir/San-Francisco-family-$pkgver"
   install -d $pkgdir/usr/share/fonts/OTF/SF
   install -d $pkgdir/usr/share/fonts/OTF/SF/Cash
   install -d $pkgdir/usr/share/fonts/OTF/SF/Camera
